@@ -6,29 +6,39 @@
     <title>Logística y Publicidad Lito's</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-    <header class="header">
-        <div class="logo">
-            <a href="index.html"><img src="logo.png" alt="Logo de Logística y Publicidad Lito's"></a>
+    <header>
+        <div class="topnav" id="myTopnav">
+            <div class="logo">
+                <a href="index.html"><img src="logo.png" alt="Logo de Logística y Publicidad Lito's" height="120px"></a>
+            </div>
+            <a href="index.html" class="active">Inicio</a>
+            <a href="servPublicidad.html">Servicios de publicidad</a>
+            <a href="mensajeria.html">Mensajería y Paquetería</a>
+            <a href="bolsatrabajo.html">Bolsa de Trabajo</a>
+            <a href="reclutamiento.html">Reclutamiento de Personal</a>
+            <a href="contacto.html">Contáctanos</a>
+            <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">
+            <i class="fa fa-bars"></i>
+          </a>
         </div>
-        <nav>
-           <ul class="nav-links">
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="servPublicidad.html">Servicios de publicidad</a></li>
-                <li><a href="mensajeria.html">Mensajería y Paquetería</a></li>
-                <li><a href="bolsatrabajo.html">Bolsa de Trabajo</a></li>
-                <li><a href="reclutamiento.html">Reclutamiento de Personal</a></li>
-                <li><a href="contacto.html">Contáctanos</a></li>
-           </ul>            
-        </nav>
-        <div class="menu-toggle">
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
-    </header>
+      </header>
+
+      <script>
+        function toggleMenu() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+      </script>
+      <br>
+    
     
 
     <main>

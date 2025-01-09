@@ -6,153 +6,172 @@
     <title>Logística y Publicidad Lito's</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <header class="header">
-        <div class="logo">
-            <a href="index.html"><img src="logo.png" alt="Logo de Logística y Publicidad Lito's" height="70px"></a>
-        </div>
-        <nav>
-           <ul class="nav-links">
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="servPublicidad.html">Servicios de publicidad</a></li>
-                <li><a href="mensajeria.html">Mensajería y Paquetería</a></li>
-                <li><a href="bolsatrabajo.html">Bolsa de Trabajo</a></li>
-                <li><a href="reclutamiento.html">Reclutamiento de Personal</a></li>
-                <li><a href="contacto.html">Contáctanos</a></li>
-           </ul>            
-        </nav>
-    </header>
-
-    <section id="publicidad">
-        <div class="titulo-publicidad">
-            <h1>Servicios de mensajeria y paquetería</h1>
-            <p>Ofrecemos servicios de mensajería y paquetería en <strong>Mexicali, Tijuana, Ensenada, Tecate, Rosarito y San Luis Río Colorado.</strong> Transportamos paquetes y mensajería en autos pequeños con <strong>servicio de domicilio a domicilio:</strong> recolectamos el paquete en la ubicación indicada por el cliente y lo entregamos directamente al destinatario. Además, realizamos <strong>transporte, recolección, resguardo y envío de muestras médicas</strong>, contando con permisos para su envío a todo el pais a través de las ubicaciones disponibles de Aeroméxico Cargo.</p>
-        </div>
-    </section>
-
-    <section id="publicidad">
-        <div class="contenido-publicidad">
-            <section class="box-style perifoneo">
-                <h2>Tijuana</h2>
-                <a href="#tij" ><img src="tij.png" class="foto"></a>
-                
-            </section>
-        
-            <section class="box-style volanteo">
-                <h2>Mexicali</h2>
-                <a href="#mxl" ><img src="mxl.png" class="foto"></a>
-                
-            </section>
-            <section class="box-style bolsa-trabajo">
-                <h2>Ensenada</h2>
-                <a href="#ens" ><img src="ens.png" class="foto"></a>
-                
-            </section>
-    
-            <section class="box-style reclutamiento">
-                <h2>San Luis Rio Colorado</h2>
-                <a href="#slrc" ><img src="slrc.png" class="foto"></a>
-                
-            </section>
-        </div>
-    </section>
-    
-    <section id="clients3">
-        <h1>Nuestros Clientes</h1>
-        <div class="carousel3">
-            <div class="carousel-track3">
-                <img src="lans.png" alt="Cliente 1" class="foto">
-                <img src="hemoser.png" alt="Cliente 2" class="foto">
-                <img src="certus.png" alt="Cliente 3" class="foto">
-                <!-- Repetimos logos para el efecto infinito -->
-                <img src="lans.png" alt="Cliente 1" class="foto">
-                <img src="hemoser.png" alt="Cliente 2" class="foto">
-                <img src="certus.png" alt="Cliente 3" class="foto">
+    <header>
+        <div class="topnav" id="myTopnav">
+            <div class="logo">
+                <a href="index.html"><img src="logo.png" alt="Logo de Logística y Publicidad Lito's" height="120px"></a>
             </div>
+          <a href="index.html" class="active">Inicio</a>
+          <a href="servPublicidad.html">Servicios de publicidad</a>
+          <a href="mensajeria.html">Mensajería y Paquetería</a>
+          <a href="bolsatrabajo.html">Bolsa de Trabajo</a>
+          <a href="reclutamiento.html">Reclutamiento de Personal</a>
+          <a href="contacto.html">Contáctanos</a>
+          <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">
+            <i class="fa fa-bars"></i>
+          </a>
         </div>
-    </section>
-    
-    
+      </header>
 
-    <section id="publicidad">
-        <div class="titulo-publicidad">
-            <h1>Muestras Médicas Humanas</h1>
-            <p>Ofrecemos servicios de recolección, transporte, resguardo y envío de muestras médicas en Mexicali, Tijuana, Ensenada, Tecate, Rosarito y San Luis Río Colorado. Contamos con permisos para su envío a todo el país a través de las ubicaciones disponibles de Aeroméxico Cargo.</p>
-        </div>
-    </section>
+      <script>
+        function toggleMenu() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+      </script>
+      <br>
+
+
+    <main>
+        <section id="publicidad">
+            <div class="titulo-publicidad">
+                <h1>Servicios de mensajeria y paquetería</h1>
+                <p>Ofrecemos servicios de mensajería y paquetería en <strong>Mexicali, Tijuana, Ensenada, Tecate, Rosarito y San Luis Río Colorado.</strong> Transportamos paquetes y mensajería en autos pequeños con <strong>servicio de domicilio a domicilio:</strong> recolectamos el paquete en la ubicación indicada por el cliente y lo entregamos directamente al destinatario. Además, realizamos <strong>transporte, recolección, resguardo y envío de muestras médicas</strong>, contando con permisos para su envío a todo el pais a través de las ubicaciones disponibles de Aeroméxico Cargo.</p>
+            </div>
+        </section>
     
-    <section id="tij">
-        <div class="contenido-publicidad2">
-            <section class="box-style2">
-                <img src="tij.png" class="foto">
-                <div class="contenido-texto">
+        <section id="publicidad">
+            <div class="contenido-publicidad">
+                <section class="box-style perifoneo">
                     <h2>Tijuana</h2>
-                    <p>En Tijuana, ofrecemos transporte de mensajería y paquetería en autos pequeños. Nuestro servicio de domicilio a domicilio asegura la entrega directa desde el punto de recolección hasta el destinatario. Además, manejamos el envío de muestras médicas con permisos para su transporte seguro en todo el país.</p>
-                    <h3>Datos de Contacto</h3>
-                    <p><strong>Teléfono o WhatsApp:</strong> <br> 686-606-3257 <br> 686-178-8484</p>
-                    <p><strong>Correo Electrónico:</strong> <br> 
-                        <a href="mailto:k.cortina@hotmail.com">k.cortina@hotmail.com</a> <br> 
-                        <a href="mailto:adolfo.herdezm@gmail.com">adolfo.herdezm@gmail.com</a>
-                    </p>
-                </div>
-            </section>
-        </div>
-    </section>
-    
-    <section id="mxl">
-        <div class="contenido-publicidad2">
-            <section class="box-style2">
-                <img src="mxl.png" class="foto">
-                <div class="contenido-texto">
+                    <a href="#tij" ><img src="tij.png" class="foto"></a>
+                    
+                </section>
+            
+                <section class="box-style volanteo">
                     <h2>Mexicali</h2>
-                    <p>Ofrecemos servicios de mensajería y paquetería en Mexicali con transporte en autos pequeños, brindando un servicio de domicilio a domicilio: recolectamos tu paquete en la ubicación indicada y lo entregamos directamente al destinatario. También realizamos la recolección, resguardo y envío de muestras médicas con permisos especiales para transporte seguro.</p>
-                    <h3>Datos de Contacto</h3>
-                    <p><strong>Teléfono o WhatsApp:</strong> <br> 686-606-3257 <br> 686-178-8484</p>
-                    <p><strong>Correo Electrónico:</strong> <br> 
-                        <a href="mailto:k.cortina@hotmail.com">k.cortina@hotmail.com</a> <br> 
-                        <a href="mailto:adolfo.herdezm@gmail.com">adolfo.herdezm@gmail.com</a>
-                    </p>
-                </div>
-            </section>
-        </div>
-    </section>
-    
-    <section id="ens">
-        <div class="contenido-publicidad2">
-            <section class="box-style2">
-                <img src="ens.png" class="foto">
-                <div class="contenido-texto">
+                    <a href="#mxl" ><img src="mxl.png" class="foto"></a>
+                    
+                </section>
+                <section class="box-style bolsa-trabajo">
                     <h2>Ensenada</h2>
-                    <p>En Ensenada, garantizamos servicios de mensajería y paquetería con recolección y entrega puerta a puerta. Transportamos paquetes y mensajería en autos pequeños. También brindamos servicios de recolección, resguardo y envío de muestras médicas con acceso a las rutas de Aeroméxico Cargo.</p>
-                    <h3>Datos de Contacto</h3>
-                    <p><strong>Teléfono o WhatsApp:</strong> <br> 686-606-3257 <br> 686-178-8484</p>
-                    <p><strong>Correo Electrónico:</strong> <br> 
-                        <a href="mailto:k.cortina@hotmail.com">k.cortina@hotmail.com</a> <br> 
-                        <a href="mailto:adolfo.herdezm@gmail.com">adolfo.herdezm@gmail.com</a>
-                    </p>
+                    <a href="#ens" ><img src="ens.png" class="foto"></a>
+                    
+                </section>
+        
+                <section class="box-style reclutamiento">
+                    <h2>San Luis Rio Colorado</h2>
+                    <a href="#slrc" ><img src="slrc.png" class="foto"></a>
+                    
+                </section>
+            </div>
+        </section>
+        
+        <section id="clients3">
+            <h1>Nuestros Clientes</h1>
+            <div class="carousel3">
+                <div class="carousel-track3">
+                    <img src="lans.png" alt="Cliente 1" class="foto">
+                    <img src="hemoser.png" alt="Cliente 2" class="foto">
+                    <img src="certus.png" alt="Cliente 3" class="foto">
+                    <!-- Repetimos logos para el efecto infinito -->
+                    <img src="lans.png" alt="Cliente 1" class="foto">
+                    <img src="hemoser.png" alt="Cliente 2" class="foto">
+                    <img src="certus.png" alt="Cliente 3" class="foto">
                 </div>
-            </section>
-        </div>
-    </section>
+            </div>
+        </section>
+        
+        
     
-    <section id="slrc">
-        <div class="contenido-publicidad2">
-            <section class="box-style2">
-                <img src="slrc.png" class="foto">
-                <div class="contenido-texto">
-                    <h2>San Luis Río Colorado</h2>
-                    <p>En San Luis Río Colorado, ofrecemos mensajería y paquetería con servicio de domicilio a domicilio, asegurando la entrega rápida y confiable de tus paquetes. Además, realizamos transporte especializado de muestras médicas, incluyendo su envío a nivel nacional a través de Aeroméxico Cargo.</p>
-                    <h3>Datos de Contacto</h3>
-                    <p><strong>Teléfono o WhatsApp:</strong> <br> 686-606-3257 <br> 686-178-8484</p>
-                    <p><strong>Correo Electrónico:</strong> <br> 
-                        <a href="mailto:k.cortina@hotmail.com">k.cortina@hotmail.com</a> <br> 
-                        <a href="mailto:adolfo.herdezm@gmail.com">adolfo.herdezm@gmail.com</a>
-                    </p>
-                </div>
-            </section>
-        </div>
-    </section>
+        <section id="publicidad">
+            <div class="titulo-publicidad">
+                <h1>Muestras Médicas Humanas</h1>
+                <p>Ofrecemos servicios de recolección, transporte, resguardo y envío de muestras médicas en Mexicali, Tijuana, Ensenada, Tecate, Rosarito y San Luis Río Colorado. Contamos con permisos para su envío a todo el país a través de las ubicaciones disponibles de Aeroméxico Cargo.</p>
+            </div>
+        </section>
+        
+        <section id="tij">
+            <div class="contenido-publicidad2">
+                <section class="box-style2">
+                    <img src="tij.png" class="foto">
+                    <div class="contenido-texto">
+                        <h2>Tijuana</h2>
+                        <p>En Tijuana, ofrecemos transporte de mensajería y paquetería en autos pequeños. Nuestro servicio de domicilio a domicilio asegura la entrega directa desde el punto de recolección hasta el destinatario. Además, manejamos el envío de muestras médicas con permisos para su transporte seguro en todo el país.</p>
+                        <h3>Datos de Contacto</h3>
+                        <p><strong>Teléfono o WhatsApp:</strong> <br> 686-606-3257 <br> 686-178-8484</p>
+                        <p><strong>Correo Electrónico:</strong> <br> 
+                            <a href="mailto:k.cortina@hotmail.com">k.cortina@hotmail.com</a> <br> 
+                            <a href="mailto:adolfo.herdezm@gmail.com">adolfo.herdezm@gmail.com</a>
+                        </p>
+                    </div>
+                </section>
+            </div>
+        </section>
+        
+        <section id="mxl">
+            <div class="contenido-publicidad2">
+                <section class="box-style2">
+                    <img src="mxl.png" class="foto">
+                    <div class="contenido-texto">
+                        <h2>Mexicali</h2>
+                        <p>Ofrecemos servicios de mensajería y paquetería en Mexicali con transporte en autos pequeños, brindando un servicio de domicilio a domicilio: recolectamos tu paquete en la ubicación indicada y lo entregamos directamente al destinatario. También realizamos la recolección, resguardo y envío de muestras médicas con permisos especiales para transporte seguro.</p>
+                        <h3>Datos de Contacto</h3>
+                        <p><strong>Teléfono o WhatsApp:</strong> <br> 686-606-3257 <br> 686-178-8484</p>
+                        <p><strong>Correo Electrónico:</strong> <br> 
+                            <a href="mailto:k.cortina@hotmail.com">k.cortina@hotmail.com</a> <br> 
+                            <a href="mailto:adolfo.herdezm@gmail.com">adolfo.herdezm@gmail.com</a>
+                        </p>
+                    </div>
+                </section>
+            </div>
+        </section>
+        
+        <section id="ens">
+            <div class="contenido-publicidad2">
+                <section class="box-style2">
+                    <img src="ens.png" class="foto">
+                    <div class="contenido-texto">
+                        <h2>Ensenada</h2>
+                        <p>En Ensenada, garantizamos servicios de mensajería y paquetería con recolección y entrega puerta a puerta. Transportamos paquetes y mensajería en autos pequeños. También brindamos servicios de recolección, resguardo y envío de muestras médicas con acceso a las rutas de Aeroméxico Cargo.</p>
+                        <h3>Datos de Contacto</h3>
+                        <p><strong>Teléfono o WhatsApp:</strong> <br> 686-606-3257 <br> 686-178-8484</p>
+                        <p><strong>Correo Electrónico:</strong> <br> 
+                            <a href="mailto:k.cortina@hotmail.com">k.cortina@hotmail.com</a> <br> 
+                            <a href="mailto:adolfo.herdezm@gmail.com">adolfo.herdezm@gmail.com</a>
+                        </p>
+                    </div>
+                </section>
+            </div>
+        </section>
+        
+        <section id="slrc">
+            <div class="contenido-publicidad2">
+                <section class="box-style2">
+                    <img src="slrc.png" class="foto">
+                    <div class="contenido-texto">
+                        <h2>San Luis Río Colorado</h2>
+                        <p>En San Luis Río Colorado, ofrecemos mensajería y paquetería con servicio de domicilio a domicilio, asegurando la entrega rápida y confiable de tus paquetes. Además, realizamos transporte especializado de muestras médicas, incluyendo su envío a nivel nacional a través de Aeroméxico Cargo.</p>
+                        <h3>Datos de Contacto</h3>
+                        <p><strong>Teléfono o WhatsApp:</strong> <br> 686-606-3257 <br> 686-178-8484</p>
+                        <p><strong>Correo Electrónico:</strong> <br> 
+                            <a href="mailto:k.cortina@hotmail.com">k.cortina@hotmail.com</a> <br> 
+                            <a href="mailto:adolfo.herdezm@gmail.com">adolfo.herdezm@gmail.com</a>
+                        </p>
+                    </div>
+                </section>
+            </div>
+        </section>
+    </main>
+
+    
     
     <script src="script.js"></script>
     <footer>

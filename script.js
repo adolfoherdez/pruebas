@@ -23,13 +23,3 @@ setInterval(() => changeImage(1), 5000);
 showImage(currentIndex);
 
 
-document.addEventListener("DOMContentLoaded", () => {
-    const menuToggle = document.querySelector(".menu-toggle");
-    const header = document.querySelector(".header");
-
-    menuToggle.addEventListener("click", () => {
-        header.classList.toggle("active"); // Agrega o quita la clase 'active'
-    });
-});
-
-    
