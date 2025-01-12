@@ -1,41 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FMX532Z7H1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-FMX532Z7H1');
+</script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Logística y Publicidad Lito's</title>
+    <title>Reclutamiento de Personal en Mexicali | Soluciones Empresariales</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <header>
-        <div class="topnav" id="myTopnav">
-          <div class="logo">
+  <header>
+    <div class="topnav" id="myTopnav">
+        <div class="logo">
             <a href="index.html"><img src="logo.png" alt="Logo de Logística y Publicidad Lito's" height="120px"></a>
         </div>
-          <a href="index.html" class="active">Inicio</a>
-          <a href="servPublicidad.html">Servicios de publicidad</a>
-          <a href="mensajeria.html">Mensajería y Paquetería</a>
-          <a href="bolsatrabajo.html">Bolsa de Trabajo</a>
-          <a href="reclutamiento.html">Reclutamiento de Personal</a>
-          <a href="contacto.html">Contáctanos</a>
-          <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">
-            <i class="fa fa-bars"></i>
-          </a>
+        <div class="menu-links">
+            <a href="index.html" class="active">Inicio</a>
+            <a href="servPublicidad.html">Servicios de publicidad</a>
+            <a href="mensajeria.html">Mensajería y Paquetería</a>
+            <a href="bolsatrabajo.html">Bolsa de Trabajo</a>
+            <a href="reclutamiento.html">Reclutamiento de Personal</a>
+            <a href="contacto.html">Contáctanos</a>
         </div>
-      </header>
-
-      <script>
-        function toggleMenu() {
-          var x = document.getElementById("myTopnav");
-          if (x.className === "topnav") {
-            x.className += " responsive";
-          } else {
-            x.className = "topnav";
-          }
+        <label class="hamburger">
+            <input type="checkbox" onclick="toggleMenu()">
+            <svg viewBox="0 0 32 32">
+                <path class="line line-top-bottom" d="M27 10 13 10C10.8 10 9 8.2 9 6 9 3.5 10.8 2 13 2 15.2 2 17 3.8 17 6L17 26C17 28.2 18.8 30 21 30 23.2 30 25 28.2 25 26 25 23.8 23.2 22 21 22L7 22"></path>
+                <path class="line" d="M7 16 27 16"></path>
+            </svg>
+        </label>
+    </div>
+</header>
+<script>
+    function toggleMenu() {
+        var topnav = document.getElementById("myTopnav");
+        if (topnav.className === "topnav") {
+            topnav.className += " responsive";
+        } else {
+            topnav.className = "topnav";
         }
-      </script>
+    }
+</script>
       <br>
 
     <main>
